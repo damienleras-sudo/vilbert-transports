@@ -13,7 +13,7 @@ const categories = [
     id: "materiaux",
     label: "Transport matériaux",
     icon: "🪨",
-    color: "bg-orange-100 text-[#b5451b]",
+    color: "bg-blue-100 text-[#1a3d6b]",
   },
   {
     id: "engins",
@@ -117,12 +117,12 @@ export default function RealisationsPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-[#b5451b] py-16 px-4">
+      <section className="bg-[#1a3d6b] py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl md:text-5xl font-black text-white mb-4">
             Nos réalisations
           </h1>
-          <p className="text-orange-100 text-lg max-w-2xl mx-auto">
+          <p className="text-blue-100 text-lg max-w-2xl mx-auto">
             Quelques exemples de nos missions de transport en Hauts-de-France et au-delà.
             Chaque chantier est unique, chaque solution est sur mesure.
           </p>
@@ -175,7 +175,7 @@ export default function RealisationsPage() {
                   <div className="p-5">
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-xs text-gray-500 font-bold">📍 {real.location}</span>
-                      <span className="text-xs text-[#b5451b] font-bold bg-orange-50 px-2 py-0.5 rounded">
+                      <span className="text-xs text-[#1a3d6b] font-bold bg-blue-50 px-2 py-0.5 rounded">
                         {real.vehicle}
                       </span>
                     </div>

@@ -16,7 +16,7 @@ export default function MentionsLegalesPage() {
         <div className="space-y-10 text-gray-600 leading-relaxed">
 
           <section>
-            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#b5451b] pb-2">
+            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#1a3d6b] pb-2">
               1. Éditeur du site
             </h2>
             <p className="mb-2">
@@ -26,8 +26,8 @@ export default function MentionsLegalesPage() {
               <li><strong>Société :</strong> Vilbert Transports</li>
               <li><strong>Forme juridique :</strong> À compléter (SAS / SARL / etc.)</li>
               <li><strong>Adresse du siège :</strong> Ruelle Mayeux, 80260 Talmas</li>
-              <li><strong>Téléphone :</strong> <a href="tel:0322930286" className="text-[#b5451b] font-bold">03 22 93 02 86</a></li>
-              <li><strong>Email :</strong> <a href="mailto:tp@groupe-vilbert.fr" className="text-[#b5451b] font-bold">tp@groupe-vilbert.fr</a></li>
+              <li><strong>Téléphone :</strong> <a href="tel:0322930286" className="text-[#1a3d6b] font-bold">03 22 93 02 86</a></li>
+              <li><strong>Email :</strong> <a href="mailto:tp@groupe-vilbert.fr" className="text-[#1a3d6b] font-bold">tp@groupe-vilbert.fr</a></li>
               <li><strong>Capital social :</strong> À compléter</li>
               <li><strong>SIRET :</strong> À compléter</li>
               <li><strong>N° TVA intra. :</strong> À compléter</li>
@@ -36,14 +36,14 @@ export default function MentionsLegalesPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#b5451b] pb-2">
+            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#1a3d6b] pb-2">
               2. Directeur de la publication
             </h2>
             <p>Le directeur de la publication est le représentant légal de Vilbert Transports.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#b5451b] pb-2">
+            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#1a3d6b] pb-2">
               3. Hébergeur
             </h2>
             <p className="mb-2">Ce site est hébergé par :</p>
@@ -54,7 +54,7 @@ export default function MentionsLegalesPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#b5451b] pb-2">
+            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#1a3d6b] pb-2">
               4. Propriété intellectuelle
             </h2>
             <p>
@@ -70,7 +70,7 @@ export default function MentionsLegalesPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#b5451b] pb-2">
+            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#1a3d6b] pb-2">
               5. Données personnelles (RGPD)
             </h2>
             <p className="mb-3">
@@ -88,7 +88,7 @@ export default function MentionsLegalesPage() {
             </ul>
             <p className="mt-3">
               Pour exercer ces droits, contactez-nous à :{" "}
-              <a href="mailto:tp@groupe-vilbert.fr" className="text-[#b5451b] font-bold">
+              <a href="mailto:tp@groupe-vilbert.fr" className="text-[#1a3d6b] font-bold">
                 tp@groupe-vilbert.fr
               </a>
             </p>
@@ -99,7 +99,7 @@ export default function MentionsLegalesPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#b5451b] pb-2">
+            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#1a3d6b] pb-2">
               6. Cookies
             </h2>
             <p>
@@ -110,7 +110,7 @@ export default function MentionsLegalesPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#b5451b] pb-2">
+            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#1a3d6b] pb-2">
               7. Responsabilité
             </h2>
             <p>
@@ -122,7 +122,7 @@ export default function MentionsLegalesPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#b5451b] pb-2">
+            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#1a3d6b] pb-2">
               8. Liens hypertextes
             </h2>
             <p>
@@ -133,7 +133,7 @@ export default function MentionsLegalesPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#b5451b] pb-2">
+            <h2 className="text-xl font-black text-gray-900 mb-3 border-b-2 border-[#1a3d6b] pb-2">
               9. Droit applicable
             </h2>
             <p>
@@ -145,7 +145,7 @@ export default function MentionsLegalesPage() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-gray-100">
-          <Link href="/" className="text-[#b5451b] font-bold hover:underline">
+          <Link href="/" className="text-[#1a3d6b] font-bold hover:underline">
             ← Retour à l&apos;accueil
           </Link>
         </div>

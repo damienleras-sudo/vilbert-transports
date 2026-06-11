@@ -163,12 +163,12 @@ export default function ParcVehiculesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-[#b5451b] py-16 px-4">
+      <section className="bg-[#1a3d6b] py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl md:text-5xl font-black text-white mb-4">
             Notre parc de véhicules
           </h1>
-          <p className="text-orange-100 text-lg max-w-2xl mx-auto mb-6">
+          <p className="text-blue-100 text-lg max-w-2xl mx-auto mb-6">
             7 types de camions spécialisés pour répondre à tous vos besoins de transport BTP.
             Flotte régulièrement renouvelée, entretenue et conforme.
           </p>
@@ -177,7 +177,7 @@ export default function ParcVehiculesPage() {
               <a
                 key={v.id}
                 href={`#${v.id}`}
-                className="bg-white/10 border border-white/20 text-white text-sm font-bold px-3 py-1.5 rounded-full hover:bg-white hover:text-[#b5451b] transition-colors"
+                className="bg-white/10 border border-white/20 text-white text-sm font-bold px-3 py-1.5 rounded-full hover:bg-white hover:text-[#1a3d6b] transition-colors"
               >
                 {v.icon} {v.name.split(" ").slice(0, 2).join(" ")}
               </a>
@@ -204,7 +204,7 @@ export default function ParcVehiculesPage() {
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
-                <div className="absolute top-4 left-4 bg-[#b5451b] text-white text-2xl w-12 h-12 rounded-xl flex items-center justify-center shadow-lg">
+                <div className="absolute top-4 left-4 bg-[#1a3d6b] text-white text-2xl w-12 h-12 rounded-xl flex items-center justify-center shadow-lg">
                   {v.icon}
                 </div>
               </div>
@@ -217,13 +217,13 @@ export default function ParcVehiculesPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                   {/* Use cases */}
                   <div>
-                    <h3 className="text-xs font-black text-[#b5451b] uppercase tracking-widest mb-3">
+                    <h3 className="text-xs font-black text-[#1a3d6b] uppercase tracking-widest mb-3">
                       Utilisations
                     </h3>
                     <ul className="space-y-1.5">
                       {v.useCases.map((uc) => (
                         <li key={uc} className="flex items-start gap-2 text-sm text-gray-600">
-                          <span className="text-[#b5451b] flex-shrink-0 mt-0.5">✓</span>
+                          <span className="text-[#1a3d6b] flex-shrink-0 mt-0.5">✓</span>
                           {uc}
                         </li>
                       ))}
@@ -232,7 +232,7 @@ export default function ParcVehiculesPage() {
 
                   {/* Specs */}
                   <div>
-                    <h3 className="text-xs font-black text-[#b5451b] uppercase tracking-widest mb-3">
+                    <h3 className="text-xs font-black text-[#1a3d6b] uppercase tracking-widest mb-3">
                       Caractéristiques
                     </h3>
                     <div className="space-y-2">
@@ -248,7 +248,7 @@ export default function ParcVehiculesPage() {
 
                 <a
                   href="tel:0322930286"
-                  className="inline-flex items-center gap-2 bg-[#b5451b] text-white font-black px-6 py-3 rounded-lg hover:bg-[#9c3a16] transition-colors"
+                  className="inline-flex items-center gap-2 bg-[#1a3d6b] text-white font-black px-6 py-3 rounded-lg hover:bg-[#254d8a] transition-colors"
                 >
                   📞 Demander un devis
                 </a>
@@ -261,7 +261,7 @@ export default function ParcVehiculesPage() {
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="text-6xl flex-shrink-0">⚠️</div>
               <div>
-                <div className="inline-block bg-[#b5451b] text-white text-xs font-black px-3 py-1 rounded mb-3 uppercase tracking-widest">
+                <div className="inline-block bg-[#1a3d6b] text-white text-xs font-black px-3 py-1 rounded mb-3 uppercase tracking-widest">
                   Autorisation officielle
                 </div>
                 <h2 className="text-2xl font-black text-white mb-3">Transport Exceptionnel</h2>
@@ -282,10 +282,10 @@ export default function ParcVehiculesPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-[#b5451b] py-12 px-4">
+      <section className="bg-[#1a3d6b] py-12 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-black text-white mb-4">Quel véhicule pour votre besoin ?</h2>
-          <p className="text-orange-200 mb-6">
+          <p className="text-blue-200 mb-6">
             Notre équipe vous conseille sur le bon véhicule selon votre chargement, votre accès et votre budget.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -297,7 +297,7 @@ export default function ParcVehiculesPage() {
             </a>
             <Link
               href="/contact"
-              className="border-2 border-white text-white font-black px-8 py-4 rounded-lg hover:bg-white hover:text-[#b5451b] transition-colors"
+              className="border-2 border-white text-white font-black px-8 py-4 rounded-lg hover:bg-white hover:text-[#1a3d6b] transition-colors"
             >
               Demander un devis
             </Link>

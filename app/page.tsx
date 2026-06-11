@@ -96,24 +96,24 @@ const services = [
 
 const engagements = [
   {
-    icon: "🏅",
-    title: "MASE Certifié",
-    desc: "Certification sécurité, santé et environnement reconnue dans le secteur industriel et BTP.",
-  },
-  {
     icon: "🌿",
-    title: "Charte CO₂",
-    desc: "Engagement dans la réduction de notre empreinte carbone — flotte récente et entretenue.",
+    titre: "Charte Objectif CO2",
+    desc: "Signataires de la Charte Objectif CO2 — engagement mesurable pour réduire nos émissions.",
   },
   {
-    icon: "🔧",
-    title: "Flotte entretenue",
-    desc: "Véhicules régulièrement contrôlés et entretenus pour garantir fiabilité et ponctualité.",
+    icon: "📡",
+    titre: "Télématique embarquée",
+    desc: "Tous nos camions équipés de télématique : suivi en temps réel, optimisation des tournées.",
   },
   {
-    icon: "👷",
-    title: "Équipes qualifiées",
-    desc: "Chauffeurs expérimentés, formés aux règles de sécurité et aux spécificités des chantiers BTP.",
+    icon: "📋",
+    titre: "DashDoc — Traçabilité",
+    desc: "Gestion documentaire digitale avec DashDoc : bons de transport, conformité, zéro papier.",
+  },
+  {
+    icon: "🚛",
+    titre: "Flotte Euro 6",
+    desc: "Camions récents aux normes Euro 6 — les moins polluants de leur catégorie.",
   },
 ];
 
@@ -121,7 +121,7 @@ export default function HomePage() {
   return (
     <>
       {/* ===== HERO ===== */}
-      <section className="relative bg-[#b5451b] overflow-hidden min-h-[90vh] flex items-center">
+      <section className="relative bg-[#1a3d6b] overflow-hidden min-h-[90vh] flex items-center">
         {/* Diagonal pattern overlay */}
         <div
           className="absolute inset-0 opacity-10"
@@ -142,7 +142,7 @@ export default function HomePage() {
               <span className="text-[#f5b800]">matériaux</span><br />
               &amp; d&apos;engins
             </h1>
-            <p className="text-orange-100 text-lg md:text-xl mb-8 leading-relaxed">
+            <p className="text-blue-100 text-lg md:text-xl mb-8 leading-relaxed">
               Vilbert Transports met à votre disposition une flotte complète de camions spécialisés —
               6x4, 8x4, ampliroll, semi TP, FMA, grue et porte-engins.
               Agréés transport exceptionnel France &amp; Europe.
@@ -156,7 +156,7 @@ export default function HomePage() {
               </a>
               <Link
                 href="/contact"
-                className="border-2 border-white text-white font-black px-8 py-4 rounded-lg text-lg hover:bg-white hover:text-[#b5451b] transition-colors"
+                className="border-2 border-white text-white font-black px-8 py-4 rounded-lg text-lg hover:bg-white hover:text-[#1a3d6b] transition-colors"
               >
                 Demander un devis
               </Link>
@@ -194,11 +194,11 @@ export default function HomePage() {
               { value: "8", label: "types de véhicules" },
               { value: "France & Europe", label: "Zone d'intervention" },
               { value: "+30 ans", label: "d'expérience" },
-              { value: "MASE", label: "Certifié" },
+              { value: "Euro 6", label: "Flotte" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-[#f5b800] font-black text-xl md:text-2xl">{stat.value}</div>
-                <div className="text-orange-200 text-xs mt-0.5">{stat.label}</div>
+                <div className="text-blue-200 text-xs mt-0.5">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -231,7 +231,7 @@ export default function HomePage() {
             ].map((card) => (
               <div
                 key={card.title}
-                className="bg-gray-800 border border-gray-700 rounded-xl p-6 hover:border-[#b5451b] transition-colors"
+                className="bg-gray-800 border border-gray-700 rounded-xl p-6 hover:border-[#1a3d6b] transition-colors"
               >
                 <div className="text-4xl mb-4">{card.icon}</div>
                 <h3 className="text-white font-black text-lg mb-2">{card.title}</h3>
@@ -257,7 +257,7 @@ export default function HomePage() {
               <Link
                 key={vehicle.name}
                 href={vehicle.href}
-                className="group bg-white rounded-xl overflow-hidden shadow hover:shadow-lg border border-gray-100 hover:border-[#b5451b] transition-all"
+                className="group bg-white rounded-xl overflow-hidden shadow hover:shadow-lg border border-gray-100 hover:border-[#1a3d6b] transition-all"
               >
                 <div className="relative h-36 bg-gray-200">
                   <Image
@@ -279,7 +279,7 @@ export default function HomePage() {
           <div className="text-center">
             <Link
               href="/parc-vehicules"
-              className="inline-flex items-center gap-2 bg-[#b5451b] text-white font-black px-8 py-4 rounded-lg hover:bg-[#9c3a16] transition-colors shadow-lg"
+              className="inline-flex items-center gap-2 bg-[#1a3d6b] text-white font-black px-8 py-4 rounded-lg hover:bg-[#254d8a] transition-colors shadow-lg"
             >
               Voir toute notre flotte →
             </Link>
@@ -292,7 +292,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8">
           <div className="text-7xl flex-shrink-0">⚠️</div>
           <div className="flex-1">
-            <div className="inline-block bg-[#b5451b] text-white text-xs font-black px-3 py-1 rounded mb-3 uppercase tracking-widest">
+            <div className="inline-block bg-[#1a3d6b] text-white text-xs font-black px-3 py-1 rounded mb-3 uppercase tracking-widest">
               Autorisation officielle
             </div>
             <h2 className="text-2xl md:text-3xl font-black text-white mb-3">
@@ -327,10 +327,10 @@ export default function HomePage() {
               <Link
                 key={s.title}
                 href={s.href}
-                className="group border-2 border-gray-100 rounded-xl p-6 hover:border-[#b5451b] hover:shadow-lg transition-all"
+                className="group border-2 border-gray-100 rounded-xl p-6 hover:border-[#1a3d6b] hover:shadow-lg transition-all"
               >
                 <div className="text-4xl mb-4">{s.icon}</div>
-                <h3 className="font-black text-gray-900 mb-2 group-hover:text-[#b5451b] transition-colors">
+                <h3 className="font-black text-gray-900 mb-2 group-hover:text-[#1a3d6b] transition-colors">
                   {s.title}
                 </h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{s.desc}</p>
@@ -340,7 +340,7 @@ export default function HomePage() {
           <div className="text-center mt-8">
             <Link
               href="/services"
-              className="inline-flex items-center gap-2 border-2 border-[#b5451b] text-[#b5451b] font-black px-6 py-3 rounded-lg hover:bg-[#b5451b] hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 border-2 border-[#1a3d6b] text-[#1a3d6b] font-black px-6 py-3 rounded-lg hover:bg-[#1a3d6b] hover:text-white transition-colors"
             >
               Découvrir tous nos services →
             </Link>
@@ -349,20 +349,20 @@ export default function HomePage() {
       </section>
 
       {/* ===== ENGAGEMENTS ===== */}
-      <section className="bg-[#b5451b] py-16 px-4">
+      <section className="bg-[#1a3d6b] py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="text-2xl md:text-3xl font-black text-white mb-3">Nos engagements</h2>
-            <p className="text-orange-200 max-w-xl mx-auto">
+            <p className="text-blue-200 max-w-xl mx-auto">
               Qualité, sécurité et professionnalisme au service de vos chantiers.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {engagements.map((e) => (
-              <div key={e.title} className="bg-white/10 border border-white/20 rounded-xl p-6 text-center">
+              <div key={e.titre} className="bg-white/10 border border-white/20 rounded-xl p-6 text-center">
                 <div className="text-4xl mb-4">{e.icon}</div>
-                <h3 className="font-black text-white mb-2">{e.title}</h3>
-                <p className="text-orange-200 text-sm leading-relaxed">{e.desc}</p>
+                <h3 className="font-black text-white mb-2">{e.titre}</h3>
+                <p className="text-blue-200 text-sm leading-relaxed">{e.desc}</p>
               </div>
             ))}
           </div>
@@ -399,7 +399,7 @@ export default function HomePage() {
                 href="https://share.google/AiI8apyJiUMyka8p9"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-3 bg-gray-100 border-2 border-gray-200 rounded-xl p-8 hover:border-[#b5451b] transition-colors"
+                className="flex items-center justify-center gap-3 bg-gray-100 border-2 border-gray-200 rounded-xl p-8 hover:border-[#1a3d6b] transition-colors"
               >
                 <span className="text-4xl">🗺️</span>
                 <span className="font-black text-gray-800">Voir sur Google Maps</span>

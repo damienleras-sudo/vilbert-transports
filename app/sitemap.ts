@@ -7,6 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/parc-vehicules",
     "/transport-exceptionnel",
     "/realisations",
+    "/blog",
     "/contact",
     "/a-propos",
     "/mentions-legales",

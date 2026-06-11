@@ -19,7 +19,7 @@ export default function FloatingCTA() {
       </a>
       <a
         href="mailto:tp@groupe-vilbert.fr"
-        className="bg-[#b5451b] text-white font-bold px-5 py-3 rounded-full shadow-xl text-sm flex items-center gap-2"
+        className="bg-[#1a3d6b] text-white font-bold px-5 py-3 rounded-full shadow-xl text-sm flex items-center gap-2"
       >
         ✉️ Email
       </a>

@@ -11,10 +11,10 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-[#b5451b] py-16 px-4">
+      <section className="bg-[#1a3d6b] py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl md:text-5xl font-black text-white mb-4">Contactez-nous</h1>
-          <p className="text-orange-100 text-lg max-w-xl mx-auto">
+          <p className="text-blue-100 text-lg max-w-xl mx-auto">
             Besoin d&apos;un devis ou d&apos;une information ? Notre équipe vous répond rapidement.
           </p>
         </div>
@@ -43,7 +43,7 @@ export default function ContactPage() {
                     name="nom"
                     required
                     placeholder="Votre nom"
-                    className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#b5451b] focus:outline-none transition-colors"
+                    className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#1a3d6b] focus:outline-none transition-colors"
                   />
                 </div>
                 <div>
@@ -55,7 +55,7 @@ export default function ContactPage() {
                     id="societe"
                     name="societe"
                     placeholder="Nom de votre société"
-                    className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#b5451b] focus:outline-none transition-colors"
+                    className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#1a3d6b] focus:outline-none transition-colors"
                   />
                 </div>
               </div>
@@ -71,7 +71,7 @@ export default function ContactPage() {
                     name="email"
                     required
                     placeholder="votre@email.fr"
-                    className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#b5451b] focus:outline-none transition-colors"
+                    className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#1a3d6b] focus:outline-none transition-colors"
                   />
                 </div>
                 <div>
@@ -83,7 +83,7 @@ export default function ContactPage() {
                     id="telephone"
                     name="telephone"
                     placeholder="06 xx xx xx xx"
-                    className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#b5451b] focus:outline-none transition-colors"
+                    className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#1a3d6b] focus:outline-none transition-colors"
                   />
                 </div>
               </div>
@@ -95,7 +95,7 @@ export default function ContactPage() {
                 <select
                   id="service"
                   name="service"
-                  className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#b5451b] focus:outline-none transition-colors bg-white"
+                  className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#1a3d6b] focus:outline-none transition-colors bg-white"
                 >
                   <option value="">Sélectionnez un service</option>
                   <option value="materiaux">Transport de matériaux</option>
@@ -117,13 +117,13 @@ export default function ContactPage() {
                   required
                   rows={6}
                   placeholder="Décrivez votre besoin : nature du chargement, poids estimé, point de départ, destination, délais souhaités..."
-                  className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#b5451b] focus:outline-none transition-colors resize-none"
+                  className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-[#1a3d6b] focus:outline-none transition-colors resize-none"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-[#b5451b] text-white font-black py-4 px-8 rounded-lg hover:bg-[#9c3a16] transition-colors text-lg shadow-lg"
+                className="w-full bg-[#1a3d6b] text-white font-black py-4 px-8 rounded-lg hover:bg-[#254d8a] transition-colors text-lg shadow-lg"
               >
                 Envoyer ma demande
               </button>
@@ -131,7 +131,7 @@ export default function ContactPage() {
               <p className="text-xs text-gray-400 text-center">
                 En soumettant ce formulaire, votre client mail s&apos;ouvrira avec votre message.
                 Vous pouvez aussi nous appeler directement au{" "}
-                <a href="tel:0322930286" className="text-[#b5451b] font-bold">
+                <a href="tel:0322930286" className="text-[#1a3d6b] font-bold">
                   03 22 93 02 86
                 </a>
                 .
@@ -147,16 +147,16 @@ export default function ContactPage() {
             <div className="space-y-4">
               <a
                 href="tel:0322930286"
-                className="flex items-center gap-4 p-5 bg-gray-50 rounded-xl border-2 border-gray-100 hover:border-[#b5451b] transition-colors group"
+                className="flex items-center gap-4 p-5 bg-gray-50 rounded-xl border-2 border-gray-100 hover:border-[#1a3d6b] transition-colors group"
               >
-                <div className="bg-[#b5451b] text-white w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
+                <div className="bg-[#1a3d6b] text-white w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
                   📞
                 </div>
                 <div>
                   <div className="text-xs font-black text-gray-500 uppercase tracking-widest mb-0.5">
                     Téléphone
                   </div>
-                  <div className="font-black text-gray-900 group-hover:text-[#b5451b] transition-colors text-lg">
+                  <div className="font-black text-gray-900 group-hover:text-[#1a3d6b] transition-colors text-lg">
                     03 22 93 02 86
                   </div>
                 </div>
@@ -164,23 +164,23 @@ export default function ContactPage() {
 
               <a
                 href="mailto:tp@groupe-vilbert.fr"
-                className="flex items-center gap-4 p-5 bg-gray-50 rounded-xl border-2 border-gray-100 hover:border-[#b5451b] transition-colors group"
+                className="flex items-center gap-4 p-5 bg-gray-50 rounded-xl border-2 border-gray-100 hover:border-[#1a3d6b] transition-colors group"
               >
-                <div className="bg-[#b5451b] text-white w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
+                <div className="bg-[#1a3d6b] text-white w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
                   ✉️
                 </div>
                 <div>
                   <div className="text-xs font-black text-gray-500 uppercase tracking-widest mb-0.5">
                     Email
                   </div>
-                  <div className="font-black text-gray-900 group-hover:text-[#b5451b] transition-colors">
+                  <div className="font-black text-gray-900 group-hover:text-[#1a3d6b] transition-colors">
                     tp@groupe-vilbert.fr
                   </div>
                 </div>
               </a>
 
               <div className="flex items-center gap-4 p-5 bg-gray-50 rounded-xl border-2 border-gray-100">
-                <div className="bg-[#b5451b] text-white w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
+                <div className="bg-[#1a3d6b] text-white w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
                   📍
                 </div>
                 <div>
@@ -195,7 +195,7 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-center gap-4 p-5 bg-gray-50 rounded-xl border-2 border-gray-100">
-                <div className="bg-[#b5451b] text-white w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
+                <div className="bg-[#1a3d6b] text-white w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
                   ⏰
                 </div>
                 <div>
@@ -229,7 +229,7 @@ export default function ContactPage() {
               href="https://share.google/AiI8apyJiUMyka8p9"
               target="_blank"
               rel="noopener noreferrer"
-              className="lg:hidden flex items-center justify-center gap-3 bg-gray-100 border-2 border-gray-200 rounded-xl p-6 hover:border-[#b5451b] transition-colors"
+              className="lg:hidden flex items-center justify-center gap-3 bg-gray-100 border-2 border-gray-200 rounded-xl p-6 hover:border-[#1a3d6b] transition-colors"
             >
               <span className="text-3xl">🗺️</span>
               <span className="font-black text-gray-800">Voir sur Google Maps</span>
@@ -255,7 +255,7 @@ export default function ContactPage() {
                 href={s.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-2 border-gray-200 text-gray-700 font-bold px-5 py-2 rounded-lg hover:border-[#b5451b] hover:text-[#b5451b] transition-colors text-sm"
+                className="border-2 border-gray-200 text-gray-700 font-bold px-5 py-2 rounded-lg hover:border-[#1a3d6b] hover:text-[#1a3d6b] transition-colors text-sm"
               >
                 {s.label} ↗
               </a>

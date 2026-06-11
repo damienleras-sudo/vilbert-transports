@@ -11,19 +11,19 @@ const stats = [
   { value: "30+", label: "ans d'expérience" },
   { value: "7", label: "types de véhicules" },
   { value: "4", label: "filiales Groupe Vilbert" },
-  { value: "MASE", label: "Certifié" },
+  { value: "Euro 6", label: "Flotte" },
 ];
 
 const certifications = [
   {
-    icon: "🏅",
-    title: "MASE",
-    desc: "Certification Management des Actions pour la Sécurité des Entreprises. Référentiel reconnu dans le secteur industriel et BTP.",
+    icon: "🌿",
+    title: "Charte Objectif CO2",
+    desc: "Signataires de la Charte Objectif CO2 — engagement mesurable pour réduire nos émissions de transport.",
   },
   {
-    icon: "🌿",
-    title: "Charte CO₂",
-    desc: "Engagement volontaire dans la réduction de l'empreinte carbone de nos activités de transport.",
+    icon: "📡",
+    title: "Télématique embarquée",
+    desc: "Tous nos camions équipés de télématique : suivi en temps réel, optimisation des tournées et réduction des trajets à vide.",
   },
   {
     icon: "🚛",
@@ -63,10 +63,10 @@ export default function AProposPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-[#b5451b] py-16 px-4">
+      <section className="bg-[#1a3d6b] py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl md:text-5xl font-black text-white mb-4">À propos de nous</h1>
-          <p className="text-orange-100 text-lg max-w-2xl mx-auto">
+          <p className="text-blue-100 text-lg max-w-2xl mx-auto">
             Vilbert Transports — spécialiste du transport de matériaux et d&apos;engins
             en Hauts-de-France depuis plus de 30 ans.
           </p>
@@ -124,10 +124,10 @@ export default function AProposPage() {
                 { year: "2000s", event: "Développement de la flotte — ajout des porteurs 8x4 et ampliroll" },
                 { year: "2010s", event: "Obtention des autorisations transport exceptionnel France & Europe" },
                 { year: "2015", event: "Intégration au Groupe Vilbert — synergie avec les filiales TP et Hydro" },
-                { year: "2020s", event: "Renouvellement de flotte — véhicules normes Euro VI, certification MASE" },
+                { year: "2020s", event: "Renouvellement de flotte — véhicules normes Euro 6, télématique embarquée et DashDoc" },
               ].map((item) => (
                 <div key={item.year} className="flex gap-4 items-start">
-                  <div className="bg-[#b5451b] text-white text-xs font-black px-3 py-1.5 rounded-lg flex-shrink-0 min-w-16 text-center">
+                  <div className="bg-[#1a3d6b] text-white text-xs font-black px-3 py-1.5 rounded-lg flex-shrink-0 min-w-16 text-center">
                     {item.year}
                   </div>
                   <p className="text-gray-600 text-sm pt-1 leading-relaxed">{item.event}</p>
@@ -148,7 +148,7 @@ export default function AProposPage() {
             {certifications.map((cert) => (
               <div
                 key={cert.title}
-                className="bg-white rounded-xl p-6 border-2 border-gray-100 hover:border-[#b5451b] transition-colors"
+                className="bg-white rounded-xl p-6 border-2 border-gray-100 hover:border-[#1a3d6b] transition-colors"
               >
                 <div className="text-4xl mb-4">{cert.icon}</div>
                 <h3 className="font-black text-gray-900 text-lg mb-2">{cert.title}</h3>
@@ -160,7 +160,7 @@ export default function AProposPage() {
       </section>
 
       {/* Team values */}
-      <section className="bg-[#b5451b] py-16 px-4">
+      <section className="bg-[#1a3d6b] py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-black text-white text-center mb-10">
             Nos valeurs
@@ -175,7 +175,7 @@ export default function AProposPage() {
               <div key={v.title} className="bg-white/10 border border-white/20 rounded-xl p-5 text-center">
                 <div className="text-3xl mb-3">{v.icon}</div>
                 <h3 className="font-black text-white mb-2">{v.title}</h3>
-                <p className="text-orange-200 text-sm">{v.desc}</p>
+                <p className="text-blue-200 text-sm">{v.desc}</p>
               </div>
             ))}
           </div>
@@ -199,10 +199,10 @@ export default function AProposPage() {
                 href={f.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group border-2 border-gray-100 rounded-xl p-5 hover:border-[#b5451b] hover:shadow-lg transition-all"
+                className="group border-2 border-gray-100 rounded-xl p-5 hover:border-[#1a3d6b] hover:shadow-lg transition-all"
               >
                 <div className="text-3xl mb-3">{f.icon}</div>
-                <h3 className="font-black text-gray-900 mb-1 group-hover:text-[#b5451b] transition-colors">
+                <h3 className="font-black text-gray-900 mb-1 group-hover:text-[#1a3d6b] transition-colors">
                   {f.name} ↗
                 </h3>
                 <p className="text-gray-500 text-sm">{f.desc}</p>

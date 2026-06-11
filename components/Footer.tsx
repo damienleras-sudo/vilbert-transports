@@ -5,12 +5,12 @@ export default function Footer() {
   return (
     <footer>
       {/* CTA Banner */}
-      <div className="bg-[#b5451b] py-12 px-4">
+      <div className="bg-[#1a3d6b] py-12 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-black text-white mb-2">
             Un besoin de transport de matériaux ou d&apos;engins ?
           </h2>
-          <p className="text-orange-200 mb-6 text-lg">
+          <p className="text-blue-200 mb-6 text-lg">
             Contactez-nous pour un devis rapide — intervention en Hauts-de-France et partout en France.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -22,7 +22,7 @@ export default function Footer() {
             </a>
             <Link
               href="/contact"
-              className="bg-white text-[#b5451b] font-black px-8 py-4 rounded-lg text-lg hover:bg-gray-100 transition-colors shadow-lg"
+              className="bg-white text-[#1a3d6b] font-black px-8 py-4 rounded-lg text-lg hover:bg-gray-100 transition-colors shadow-lg"
             >
               Demander un devis
             </Link>
@@ -53,7 +53,7 @@ export default function Footer() {
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-700 hover:bg-[#b5451b] text-white p-2 rounded transition-colors"
+                className="bg-gray-700 hover:bg-[#1a3d6b] text-white p-2 rounded transition-colors"
                 aria-label="Facebook Vilbert Transports"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -64,7 +64,7 @@ export default function Footer() {
                 href="https://share.google/AiI8apyJiUMyka8p9"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-700 hover:bg-[#b5451b] text-white p-2 rounded transition-colors"
+                className="bg-gray-700 hover:bg-[#1a3d6b] text-white p-2 rounded transition-colors"
                 aria-label="Google Maps Vilbert Transports"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -125,6 +125,7 @@ export default function Footer() {
                 {[
                   { label: "Services", href: "/services" },
                   { label: "Réalisations", href: "/realisations" },
+                  { label: "Blog", href: "/blog" },
                   { label: "À propos", href: "/a-propos" },
                   { label: "Contact", href: "/contact" },
                 ].map((item) => (
@@ -143,23 +144,23 @@ export default function Footer() {
             <h3 className="text-white font-black text-sm uppercase tracking-widest mb-4">Contact</h3>
             <ul className="space-y-3 text-sm text-gray-400">
               <li className="flex items-start gap-2">
-                <span className="text-[#b5451b] mt-0.5">📍</span>
+                <span className="text-[#1a3d6b] mt-0.5">📍</span>
                 <span>Ruelle Mayeux<br />80260 Talmas</span>
               </li>
               <li>
                 <a href="tel:0322930286" className="flex items-center gap-2 hover:text-[#f5b800] transition-colors">
-                  <span className="text-[#b5451b]">📞</span>
+                  <span className="text-[#1a3d6b]">📞</span>
                   03 22 93 02 86
                 </a>
               </li>
               <li>
                 <a href="mailto:tp@groupe-vilbert.fr" className="flex items-center gap-2 hover:text-[#f5b800] transition-colors break-all">
-                  <span className="text-[#b5451b]">✉️</span>
+                  <span className="text-[#1a3d6b]">✉️</span>
                   tp@groupe-vilbert.fr
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#b5451b] mt-0.5">⏰</span>
+                <span className="text-[#1a3d6b] mt-0.5">⏰</span>
                 <span>Lun–Ven : 7h–18h</span>
               </li>
               <li>
@@ -169,7 +170,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-[#f5b800] transition-colors"
                 >
-                  <span className="text-[#b5451b]">🗺️</span>
+                  <span className="text-[#1a3d6b]">🗺️</span>
                   Voir sur Google Maps
                 </a>
               </li>

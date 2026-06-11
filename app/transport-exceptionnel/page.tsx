@@ -90,7 +90,7 @@ export default function TransportExceptionnelPage() {
           }}
         />
         <div className="relative max-w-4xl mx-auto text-center">
-          <div className="inline-block bg-[#b5451b] text-white text-xs font-black px-4 py-2 rounded-full mb-6 uppercase tracking-widest">
+          <div className="inline-block bg-[#1a3d6b] text-white text-xs font-black px-4 py-2 rounded-full mb-6 uppercase tracking-widest">
             ⚠️ Autorisation officielle France &amp; Europe
           </div>
           <h1 className="text-3xl md:text-5xl font-black text-white mb-6">
@@ -142,7 +142,7 @@ export default function TransportExceptionnelPage() {
                 <div key={c.label} className="bg-gray-50 border-2 border-gray-100 rounded-xl p-5 text-center">
                   <div className="text-3xl mb-2">{c.icon}</div>
                   <div className="font-black text-gray-900 mb-1">{c.label}</div>
-                  <div className="text-sm text-[#b5451b] font-bold">{c.value}</div>
+                  <div className="text-sm text-[#1a3d6b] font-bold">{c.value}</div>
                 </div>
               ))}
             </div>
@@ -151,7 +151,7 @@ export default function TransportExceptionnelPage() {
       </section>
 
       {/* Our authorizations */}
-      <section className="bg-[#b5451b] py-16 px-4">
+      <section className="bg-[#1a3d6b] py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-black text-white text-center mb-10">
             Nos autorisations
@@ -160,7 +160,7 @@ export default function TransportExceptionnelPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-6">
               <div className="text-4xl mb-4">🇫🇷</div>
               <h3 className="font-black text-white text-xl mb-3">France entière</h3>
-              <p className="text-orange-200 leading-relaxed">
+              <p className="text-blue-200 leading-relaxed">
                 Autorisations préfectorales pour tous les départements français.
                 Nous gérons les demandes multi-départements pour les longs trajets.
                 Escorte et signalisation conformes à la réglementation française.
@@ -169,7 +169,7 @@ export default function TransportExceptionnelPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-6">
               <div className="text-4xl mb-4">🇪🇺</div>
               <h3 className="font-black text-white text-xl mb-3">Europe</h3>
-              <p className="text-orange-200 leading-relaxed">
+              <p className="text-blue-200 leading-relaxed">
                 Convois transfrontaliers en Europe. Maîtrise des réglementations
                 des pays limitrophes (Belgique, Luxembourg, Allemagne, etc.).
                 Gestion des autorisations pays par pays.
@@ -209,7 +209,7 @@ export default function TransportExceptionnelPage() {
           <div className="space-y-6">
             {steps.map((step) => (
               <div key={step.num} className="flex gap-6 items-start">
-                <div className="bg-[#b5451b] text-white font-black text-lg w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                <div className="bg-[#1a3d6b] text-white font-black text-lg w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
                   {step.num}
                 </div>
                 <div className="flex-1 pt-1">
@@ -232,7 +232,7 @@ export default function TransportExceptionnelPage() {
             {faqs.map((faq) => (
               <div key={faq.q} className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm">
                 <h3 className="font-black text-gray-900 mb-3 flex items-start gap-2">
-                  <span className="text-[#b5451b] flex-shrink-0">Q.</span>
+                  <span className="text-[#1a3d6b] flex-shrink-0">Q.</span>
                   {faq.q}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed pl-5">{faq.a}</p>

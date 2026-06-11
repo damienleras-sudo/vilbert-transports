@@ -99,7 +99,7 @@ export default function ServicesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-[#b5451b] py-16 px-4">
+      <section className="bg-[#1a3d6b] py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-block bg-white/10 border border-white/20 text-white text-sm font-bold px-4 py-2 rounded-full mb-6">
             Hauts-de-France · France · Europe
@@ -107,7 +107,7 @@ export default function ServicesPage() {
           <h1 className="text-3xl md:text-5xl font-black text-white mb-4">
             Nos services de transport
           </h1>
-          <p className="text-orange-100 text-lg max-w-2xl mx-auto">
+          <p className="text-blue-100 text-lg max-w-2xl mx-auto">
             Du transport de granulats à l&apos;acheminement d&apos;engins hors-gabarit,
             Vilbert Transports couvre tous vos besoins BTP.
           </p>
@@ -126,13 +126,13 @@ export default function ServicesPage() {
               <div className="flex-1">
                 <div className="text-5xl mb-4">{service.icon}</div>
                 <h2 className="text-2xl font-black text-gray-900 mb-1">{service.title}</h2>
-                <p className="text-[#b5451b] font-bold mb-4">{service.subtitle}</p>
+                <p className="text-[#1a3d6b] font-bold mb-4">{service.subtitle}</p>
                 <p className="text-gray-600 mb-6 leading-relaxed">{service.desc}</p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {service.vehicles.map((v) => (
                     <span
                       key={v}
-                      className="bg-orange-50 text-[#b5451b] text-xs font-bold px-3 py-1 rounded-full border border-orange-200"
+                      className="bg-blue-50 text-[#1a3d6b] text-xs font-bold px-3 py-1 rounded-full border border-blue-200"
                     >
                       🚛 {v}
                     </span>
@@ -140,7 +140,7 @@ export default function ServicesPage() {
                 </div>
                 <Link
                   href={service.cta}
-                  className="inline-flex items-center gap-2 bg-[#b5451b] text-white font-black px-6 py-3 rounded-lg hover:bg-[#9c3a16] transition-colors"
+                  className="inline-flex items-center gap-2 bg-[#1a3d6b] text-white font-black px-6 py-3 rounded-lg hover:bg-[#254d8a] transition-colors"
                 >
                   En savoir plus →
                 </Link>
@@ -152,7 +152,7 @@ export default function ServicesPage() {
                 <ul className="space-y-2">
                   {service.details.map((d) => (
                     <li key={d} className="flex items-start gap-2 text-gray-600 text-sm">
-                      <span className="text-[#b5451b] mt-0.5 flex-shrink-0">✓</span>
+                      <span className="text-[#1a3d6b] mt-0.5 flex-shrink-0">✓</span>
                       {d}
                     </li>
                   ))}
