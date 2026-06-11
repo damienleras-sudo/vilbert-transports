@@ -84,7 +84,19 @@ const services = [
     icon: "♻️",
     title: "Ampliroll & déchets inertes",
     desc: "Mise à disposition de bennes amovibles, collecte et transport de déchets inertes de chantier.",
-    href: "/services#materiaux",
+    href: "/services#ampliroll",
+  },
+  {
+    icon: "🏭",
+    title: "Liquides & ADR",
+    desc: "Citernes, produits pâteux, matières dangereuses — chauffeurs ADR habilités.",
+    href: "/services#adr",
+  },
+  {
+    icon: "♻️",
+    title: "Transport de déchets",
+    desc: "Agrément préfectoral pour le transport de déchets par route.",
+    href: "/services#dechets",
   },
   {
     icon: "🛣️",
@@ -219,14 +231,14 @@ export default function HomePage() {
                 desc: "Terrassiers, maçons, routes — approvisionnement chantier, évacuation déblais, transport d'engins.",
               },
               {
+                icon: "🏭",
+                title: "Industries",
+                desc: "Usines, sites industriels — matériaux, liquides, ADR, déchets industriels. Chauffeurs habilités ADR & AIPR.",
+              },
+              {
                 icon: "🏛️",
                 title: "Collectivités & Mairies",
                 desc: "Communes, intercommunalités — travaux de voirie, aménagements, entretien des espaces publics.",
-              },
-              {
-                icon: "🌾",
-                title: "Particuliers & Agriculteurs",
-                desc: "Particuliers en construction, exploitants agricoles — transport de matériaux et engins agricoles.",
               },
             ].map((card) => (
               <div
@@ -287,6 +299,35 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ===== SPECIALITES ===== */}
+      <section className="bg-gray-900 py-14 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-black text-white mb-2">Spécialités &amp; habilitations</h2>
+            <p className="text-gray-400 text-sm max-w-xl mx-auto">
+              Au-delà du transport classique, Vilbert Transports est habilité pour des prestations spécialisées.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { icon: "⚠️", label: "Transport ADR", sub: "Matières dangereuses — chauffeurs habilités" },
+              { icon: "♻️", label: "Déchets par route", sub: "Agrément préfectoral" },
+              { icon: "🏭", label: "Clients industriels", sub: "Usines & sites industriels" },
+              { icon: "🦺", label: "Chauffeurs AIPR", sub: "Autorisation réseaux enterrés" },
+            ].map((s) => (
+              <div
+                key={s.label}
+                className="bg-gray-800 border border-gray-700 rounded-xl p-5 text-center hover:border-[#f5b800] transition-colors"
+              >
+                <div className="text-3xl mb-3">{s.icon}</div>
+                <div className="font-black text-white text-sm mb-1">{s.label}</div>
+                <div className="text-gray-400 text-xs leading-relaxed">{s.sub}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ===== TRANSPORT EXCEPTIONNEL BAND ===== */}
       <section className="bg-gray-900 py-16 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8">
@@ -322,7 +363,7 @@ export default function HomePage() {
               Du transport de granulats à l&apos;acheminement d&apos;engins hors-gabarit, nous avons la solution.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((s) => (
               <Link
                 key={s.title}

@@ -101,6 +101,8 @@ export default function ContactPage() {
                   <option value="materiaux">Transport de matériaux</option>
                   <option value="engins">Transport d&apos;engins</option>
                   <option value="ampliroll">Ampliroll / déchets inertes</option>
+                  <option value="adr">Transport ADR & liquides industriels</option>
+                  <option value="dechets">Transport de déchets (agrément préfectoral)</option>
                   <option value="exceptionnel">Transport exceptionnel</option>
                   <option value="location">Location avec chauffeur</option>
                   <option value="autre">Autre / À préciser</option>

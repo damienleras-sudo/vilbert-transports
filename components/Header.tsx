@@ -16,6 +16,8 @@ const fleetItems = [
 const servicesItems = [
   { label: "Transport de matériaux", href: "/services#materiaux" },
   { label: "Transport d'engins", href: "/services#engins" },
+  { label: "Transport ADR & Liquides", href: "/services#adr" },
+  { label: "Transport de déchets", href: "/services#dechets" },
   { label: "Transport exceptionnel", href: "/transport-exceptionnel" },
   { label: "Location avec chauffeur", href: "/services#location" },
 ];

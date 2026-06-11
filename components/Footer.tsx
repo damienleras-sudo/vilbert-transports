@@ -120,12 +120,14 @@ export default function Footer() {
               ))}
             </ul>
             <div className="mt-6">
-              <h3 className="text-white font-black text-sm uppercase tracking-widest mb-4">Navigation</h3>
+              <h3 className="text-white font-black text-sm uppercase tracking-widest mb-4">Services</h3>
               <ul className="space-y-2">
                 {[
-                  { label: "Services", href: "/services" },
-                  { label: "Réalisations", href: "/realisations" },
-                  { label: "Blog", href: "/blog" },
+                  { label: "Transport de matériaux", href: "/services#materiaux" },
+                  { label: "Transport ADR & Liquides", href: "/services#adr" },
+                  { label: "Transport de déchets", href: "/services#dechets" },
+                  { label: "Transport exceptionnel", href: "/transport-exceptionnel" },
+                  { label: "Location avec chauffeur", href: "/services#location" },
                   { label: "À propos", href: "/a-propos" },
                   { label: "Contact", href: "/contact" },
                 ].map((item) => (

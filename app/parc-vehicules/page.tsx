@@ -256,6 +256,33 @@ export default function ParcVehiculesPage() {
             </div>
           ))}
 
+          {/* ADR & Citernes */}
+          <div id="adr" className="bg-[#1a3d6b] rounded-2xl p-8 scroll-mt-24">
+            <div className="flex flex-col md:flex-row items-center gap-6">
+              <div className="text-6xl flex-shrink-0">🏭</div>
+              <div>
+                <div className="inline-block bg-white/20 text-white text-xs font-black px-3 py-1 rounded mb-3 uppercase tracking-widest">
+                  Habilitation ADR
+                </div>
+                <h2 className="text-2xl font-black text-white mb-3">Citernes & Transport ADR</h2>
+                <p className="text-blue-200 mb-4 leading-relaxed">
+                  Vilbert Transports dispose de véhicules équipés pour le transport de liquides industriels,
+                  produits pâteux et matières dangereuses classées ADR. Tous nos chauffeurs concernés sont
+                  titulaires de l&apos;habilitation ADR en cours de validité.
+                  Nos chauffeurs sont également tous titulaires de l&apos;AIPR (Autorisation d&apos;Intervention
+                  à Proximité des Réseaux).
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {["⚠️ Chauffeurs ADR habilités", "🦺 Chauffeurs AIPR", "🏭 Liquides industriels", "♻️ Agrément déchets"].map((badge) => (
+                    <span key={badge} className="bg-white/10 border border-white/20 text-white text-xs font-bold px-3 py-1.5 rounded-full">
+                      {badge}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Transport exceptionnel */}
           <div id="transport-exceptionnel" className="bg-gray-900 rounded-2xl p-8 scroll-mt-24">
             <div className="flex flex-col md:flex-row items-center gap-6">

@@ -30,6 +30,21 @@ const certifications = [
     title: "Transport exceptionnel",
     desc: "Autorisations officielles pour les convois exceptionnels en France et en Europe.",
   },
+  {
+    icon: "⚠️",
+    title: "Transport ADR habilité",
+    desc: "Habilitation pour le transport de matières dangereuses (ADR) — chauffeurs certifiés et véhicules équipés.",
+  },
+  {
+    icon: "♻️",
+    title: "Agrément transport de déchets",
+    desc: "Agrément préfectoral pour le transport de déchets par route — déchets inertes, industriels non dangereux et DIS.",
+  },
+  {
+    icon: "🦺",
+    title: "Chauffeurs AIPR",
+    desc: "Tous nos chauffeurs sont titulaires de l'AIPR (Autorisation d'Intervention à Proximité des Réseaux).",
+  },
 ];
 
 const filiales = [
@@ -144,7 +159,7 @@ export default function AProposPage() {
           <h2 className="text-2xl md:text-3xl font-black text-gray-900 text-center mb-10">
             Certifications &amp; engagements
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {certifications.map((cert) => (
               <div
                 key={cert.title}

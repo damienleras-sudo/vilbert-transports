@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Services de transport BTP — matériaux, engins, ampliroll",
   description:
-    "Vilbert Transports : transport de matériaux TP (granulats, terres, remblais), transport d'engins de chantier, ampliroll, transport exceptionnel, location de camion avec chauffeur en Hauts-de-France.",
+    "Vilbert Transports : transport de matériaux TP, engins de chantier, liquides & ADR (chauffeurs habilités), transport de déchets (agrément préfectoral), ampliroll, transport exceptionnel — Hauts-de-France.",
 };
 
 const services = [
@@ -77,6 +77,40 @@ const services = [
     cta: "/transport-exceptionnel",
   },
   {
+    id: "adr",
+    icon: "🏭",
+    title: "Transport de liquides & produits ADR",
+    subtitle: "Citernes, liquides industriels, matières dangereuses",
+    desc: "Vilbert Transports assure le transport de liquides industriels, de produits pâteux et de matières dangereuses classées ADR. Nos chauffeurs sont habilités ADR et nos véhicules équipés en conséquence pour garantir la sécurité et la conformité réglementaire.",
+    details: [
+      "Liquides industriels et produits pâteux",
+      "Citernes pour transports spéciaux",
+      "Matières dangereuses classes ADR",
+      "Chauffeurs habilités et formés ADR",
+      "Documents de transport conformes",
+      "Équipements de sécurité ADR à bord",
+    ],
+    vehicles: ["Véhicules ADR équipés", "Citernes"],
+    cta: "/contact",
+  },
+  {
+    id: "dechets",
+    icon: "♻️",
+    title: "Transport de déchets",
+    subtitle: "Agrément préfectoral — déchets par route",
+    desc: "Vilbert Transports est titulaire d'un agrément préfectoral pour le transport de déchets par route. Nous intervenons pour l'enlèvement et le transport de déchets industriels, inertes ou dangereux vers les filières de traitement agréées.",
+    details: [
+      "Agrément préfectoral transport de déchets",
+      "Déchets industriels non dangereux",
+      "Déchets industriels spéciaux (DIS)",
+      "Déchets inertes de chantier",
+      "Transport vers filières agréées",
+      "Documents de suivi (BSD) conformes",
+    ],
+    vehicles: ["Ampliroll", "Bennes", "Véhicules ADR si nécessaire"],
+    cta: "/contact",
+  },
+  {
     id: "location",
     icon: "🤝",
     title: "Location avec chauffeur",
@@ -109,7 +143,8 @@ export default function ServicesPage() {
           </h1>
           <p className="text-blue-100 text-lg max-w-2xl mx-auto">
             Du transport de granulats à l&apos;acheminement d&apos;engins hors-gabarit,
-            Vilbert Transports couvre tous vos besoins BTP.
+            en passant par les liquides, les matières dangereuses ADR et les déchets industriels —
+            Vilbert Transports couvre tous vos besoins BTP et industriels.
           </p>
         </div>
       </section>
