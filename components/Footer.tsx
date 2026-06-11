@@ -38,7 +38,7 @@ export default function Footer() {
             <div className="relative w-40 h-10 mb-4">
               <Image
                 src="/logo.png"
-                alt="Vilbert Transports"
+                alt="Vilbert Transports — Logo"
                 fill
                 sizes="160px"
                 className="object-contain object-left brightness-0 invert"

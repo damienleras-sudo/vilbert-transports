@@ -21,14 +21,14 @@ const fleetItems = [
     name: "8x4 Benne",
     desc: "Grands volumes — remblais, granulats, terres",
     href: "/parc-vehicules#8x4",
-    img: "/8x4.jpg",
+    img: "/fleet.jpg",
   },
   {
     icon: "🔄",
     name: "Ampliroll",
     desc: "Benne amovible — déchets inertes et matériaux",
     href: "/parc-vehicules#ampliroll",
-    img: "/ampliroll.jpg",
+    img: "/transport-enrobe.jpg",
   },
   {
     icon: "🏗️",
@@ -49,7 +49,7 @@ const fleetItems = [
     name: "8x4 + Grue",
     desc: "Chargement autonome — accès difficile",
     href: "/parc-vehicules#grue",
-    img: "/grue.jpg",
+    img: "/8x4-grue.jpg",
   },
   {
     icon: "🚜",
@@ -189,7 +189,7 @@ export default function HomePage() {
           <div className="relative h-80 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
             <Image
               src="/hero.jpg"
-              alt="Flotte de camions Vilbert Transports en action"
+              alt="Camion Vilbert Transports — transport de matériaux Hauts-de-France"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"

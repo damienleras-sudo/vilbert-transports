@@ -34,7 +34,7 @@ const vehicles = [
     id: "8x4",
     icon: "🚚",
     name: "8x4 Benne (porteur)",
-    img: "/8x4.jpg",
+    img: "/fleet.jpg",
     desc: "Plus grand que le 6x4, le porteur 8x4 benne offre une charge utile et un volume supérieurs. Idéal pour les chantiers nécessitant de gros volumes en une seule rotation.",
     useCases: [
       "Grands volumes de granulats",
@@ -55,7 +55,7 @@ const vehicles = [
     id: "ampliroll",
     icon: "🔄",
     name: "Camion ampliroll",
-    img: "/ampliroll.jpg",
+    img: "/transport-enrobe.jpg",
     desc: "Le camion ampliroll (ou multilift) est équipé d'un système de bras ampliroll permettant de déposer, récupérer et échanger des bennes amovibles sans manipulation manuelle.",
     useCases: [
       "Mise à disposition de bennes sur chantier",
@@ -118,7 +118,7 @@ const vehicles = [
     id: "grue",
     icon: "🏗️",
     name: "8x4 avec grue auxiliaire",
-    img: "/grue.jpg",
+    img: "/8x4-grue.jpg",
     desc: "Le porteur 8x4 équipé d'une grue auxiliaire offre l'autonomie de chargement/déchargement. Idéal pour les livraisons sur des sites sans engin de manutention ou d'accès difficile.",
     useCases: [
       "Livraison sur sites sans grue fixe",
