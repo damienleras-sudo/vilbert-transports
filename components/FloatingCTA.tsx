@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState, useEffect } from "react";
 
 export default function FloatingCTA() {
@@ -18,7 +18,7 @@ export default function FloatingCTA() {
         📞 Appeler
       </a>
       <a
-        href="mailto:tp@groupe-vilbert.fr"
+        href="mailto:transports@groupe-vilbert.fr"
         className="bg-[#1a3d6b] text-white font-bold px-5 py-3 rounded-full shadow-xl text-sm flex items-center gap-2"
       >
         ✉️ Email

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -189,7 +189,7 @@ export default function AProposPage() {
               { term: "Activité", desc: "Transport routier de matériaux, engins et marchandises" },
               { term: "Siège", desc: "Ruelle Mayeux, 80260 Talmas (Somme)" },
               { term: "Téléphone", desc: "03 22 93 02 86" },
-              { term: "Email", desc: "tp@groupe-vilbert.fr" },
+              { term: "Email", desc: "transports@groupe-vilbert.fr" },
               { term: "Zone principale", desc: "Somme (80), Oise (60), Pas-de-Calais (62), Hauts-de-France" },
               { term: "Zone étendue", desc: "France entière, Europe (transport exceptionnel)" },
               { term: "Groupe", desc: "Groupe Vilbert" },

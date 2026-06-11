@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export default function MentionsLegalesPage() {
               <li><strong>Forme juridique :</strong> À compléter (SAS / SARL / etc.)</li>
               <li><strong>Adresse du siège :</strong> Ruelle Mayeux, 80260 Talmas</li>
               <li><strong>Téléphone :</strong> <a href="tel:0322930286" className="text-[#1a3d6b] font-bold">03 22 93 02 86</a></li>
-              <li><strong>Email :</strong> <a href="mailto:tp@groupe-vilbert.fr" className="text-[#1a3d6b] font-bold">tp@groupe-vilbert.fr</a></li>
+              <li><strong>Email :</strong> <a href="mailto:transports@groupe-vilbert.fr" className="text-[#1a3d6b] font-bold">transports@groupe-vilbert.fr</a></li>
               <li><strong>Capital social :</strong> À compléter</li>
               <li><strong>SIRET :</strong> À compléter</li>
               <li><strong>N° TVA intra. :</strong> À compléter</li>
@@ -88,8 +88,8 @@ export default function MentionsLegalesPage() {
             </ul>
             <p className="mt-3">
               Pour exercer ces droits, contactez-nous à :{" "}
-              <a href="mailto:tp@groupe-vilbert.fr" className="text-[#1a3d6b] font-bold">
-                tp@groupe-vilbert.fr
+              <a href="mailto:transports@groupe-vilbert.fr" className="text-[#1a3d6b] font-bold">
+                transports@groupe-vilbert.fr
               </a>
             </p>
             <p className="mt-3">

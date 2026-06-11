@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -36,8 +36,8 @@ export default function Header() {
             <a href="tel:0322930286" className="flex items-center gap-1 hover:text-[#f5b800] transition-colors font-bold">
               📞 03 22 93 02 86
             </a>
-            <a href="mailto:tp@groupe-vilbert.fr" className="flex items-center gap-1 hover:text-[#f5b800] transition-colors hidden sm:flex">
-              ✉️ tp@groupe-vilbert.fr
+            <a href="mailto:transports@groupe-vilbert.fr" className="flex items-center gap-1 hover:text-[#f5b800] transition-colors hidden sm:flex">
+              ✉️ transports@groupe-vilbert.fr
             </a>
             <span className="text-blue-200 hidden md:inline">⏰ Lun–Ven : 7h–18h · Hauts-de-France &amp; Europe</span>
           </div>
@@ -145,7 +145,7 @@ export default function Header() {
           {/* CTA buttons desktop */}
           <div className="hidden lg:flex items-center gap-2">
             <a
-              href="mailto:tp@groupe-vilbert.fr"
+              href="mailto:transports@groupe-vilbert.fr"
               className="text-sm font-bold px-4 py-2 border-2 border-[#1a3d6b] text-[#1a3d6b] rounded hover:bg-[#1a3d6b] hover:text-white transition-colors"
             >
               ✉️ Email
@@ -211,7 +211,7 @@ export default function Header() {
                 <a href="tel:0322930286" className="flex-1 text-center bg-[#1a3d6b] text-white font-black py-3 rounded text-sm">
                   📞 Appeler
                 </a>
-                <a href="mailto:tp@groupe-vilbert.fr" className="flex-1 text-center border-2 border-[#1a3d6b] text-[#1a3d6b] font-bold py-3 rounded text-sm">
+                <a href="mailto:transports@groupe-vilbert.fr" className="flex-1 text-center border-2 border-[#1a3d6b] text-[#1a3d6b] font-bold py-3 rounded text-sm">
                   ✉️ Email
                 </a>
               </div>

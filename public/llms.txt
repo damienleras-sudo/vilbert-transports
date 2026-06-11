@@ -1,4 +1,4 @@
-# Vilbert Transports
+﻿# Vilbert Transports
 
 ## Identité
 Vilbert Transports est une entreprise de transport routier basée à Talmas (Somme, 80260), spécialisée dans le transport de matériaux, d'engins de chantier et de marchandises en Hauts-de-France et en Europe.
@@ -6,7 +6,8 @@ Vilbert Transports est une entreprise de transport routier basée à Talmas (Som
 ## Contact
 - Adresse : Ruelle Mayeux, 80260 Talmas
 - Téléphone : 03 22 93 02 86
-- Email : tp@groupe-vilbert.fr
+- Email général : transports@groupe-vilbert.fr
+- Email transport exceptionnel : tvt@groupe-vilbert.fr
 - Site web : https://www.vilbert-transports.fr
 - Groupe : Groupe Vilbert (https://www.groupe-vilbert.com)
 

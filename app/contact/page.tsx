@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export default function ContactPage() {
           <div>
             <h2 className="text-2xl font-black text-gray-900 mb-6">Demande de devis</h2>
             <form
-              action="mailto:tp@groupe-vilbert.fr"
+              action="mailto:transports@groupe-vilbert.fr"
               method="post"
               encType="text/plain"
               className="space-y-5"
@@ -165,7 +165,7 @@ export default function ContactPage() {
               </a>
 
               <a
-                href="mailto:tp@groupe-vilbert.fr"
+                href="mailto:transports@groupe-vilbert.fr"
                 className="flex items-center gap-4 p-5 bg-gray-50 rounded-xl border-2 border-gray-100 hover:border-[#1a3d6b] transition-colors group"
               >
                 <div className="bg-[#1a3d6b] text-white w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
@@ -176,7 +176,7 @@ export default function ContactPage() {
                     Email
                   </div>
                   <div className="font-black text-gray-900 group-hover:text-[#1a3d6b] transition-colors">
-                    tp@groupe-vilbert.fr
+                    transports@groupe-vilbert.fr
                   </div>
                 </div>
               </a>

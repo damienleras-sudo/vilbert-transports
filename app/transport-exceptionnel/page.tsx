@@ -29,7 +29,7 @@ const steps = [
   {
     num: "01",
     title: "Contactez-nous",
-    desc: "Décrivez votre besoin : dimensions, poids, point de départ, destination, délais.",
+    desc: "Décrivez votre besoin : dimensions, poids, point de départ, destination, délais. Par téléphone au 03 22 93 02 86 ou par email : tvt@groupe-vilbert.fr",
   },
   {
     num: "02",
@@ -249,7 +249,7 @@ export default function TransportExceptionnelPage() {
             Un convoi exceptionnel à planifier ?
           </h2>
           <p className="text-gray-400 mb-8">
-            Contactez notre équipe dès maintenant. Nous étudions votre dossier et vous répondons rapidement.
+            Contactez notre équipe dédiée aux transports exceptionnels. Nous étudions votre dossier et vous répondons rapidement.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
@@ -257,6 +257,12 @@ export default function TransportExceptionnelPage() {
               className="bg-[#f5b800] text-gray-900 font-black px-8 py-4 rounded-lg hover:bg-yellow-400 transition-colors"
             >
               📞 03 22 93 02 86
+            </a>
+            <a
+              href="mailto:tvt@groupe-vilbert.fr"
+              className="bg-[#1a3d6b] text-white font-black px-8 py-4 rounded-lg hover:bg-[#254d8a] transition-colors"
+            >
+              ✉️ tvt@groupe-vilbert.fr
             </a>
             <Link
               href="/contact"

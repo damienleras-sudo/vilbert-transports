@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 
 export default function Footer() {
@@ -156,9 +156,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:tp@groupe-vilbert.fr" className="flex items-center gap-2 hover:text-[#f5b800] transition-colors break-all">
+                <a href="mailto:transports@groupe-vilbert.fr" className="flex items-center gap-2 hover:text-[#f5b800] transition-colors break-all">
                   <span className="text-[#1a3d6b]">✉️</span>
-                  tp@groupe-vilbert.fr
+                  transports@groupe-vilbert.fr
                 </a>
               </li>
               <li className="flex items-start gap-2">

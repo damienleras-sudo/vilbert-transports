@@ -1,4 +1,4 @@
-export default function SchemaOrg() {
+﻿export default function SchemaOrg() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -8,7 +8,7 @@ export default function SchemaOrg() {
       "Entreprise de transport routier de matériaux, engins et marchandises. Flotte de camions 6x4, 8x4, ampliroll, semi TP, FMA, grue, porte-engins. Transport exceptionnel France et Europe. Agréé transport de déchets. Chauffeurs ADR et AIPR.",
     url: "https://www.vilbert-transports.fr",
     telephone: "+33322930286",
-    email: "tp@groupe-vilbert.fr",
+    email: "transports@groupe-vilbert.fr",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Ruelle Mayeux",
