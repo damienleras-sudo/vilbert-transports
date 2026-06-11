@@ -3,18 +3,14 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { blogCategories, type BlogPost } from "@/lib/blog-posts";
 
-type Post = {
-  slug: string;
-  title: string;
-  excerpt: string;
-  category: string;
-  date: string;
-  readingTime: number;
-  image: string;
-};
+type Post = Pick<
+  BlogPost,
+  "slug" | "title" | "excerpt" | "category" | "date" | "readingTime" | "image" | "imageAlt"
+>;
 
-const categories = ["Tous", "Transport exceptionnel", "Environnement", "Flotte", "Conseils", "Innovation"];
+const categories = blogCategories;
 
 function formatDate(dateStr: string) {
   return new Date(dateStr).toLocaleDateString("fr-FR", { year: "numeric", month: "long", day: "numeric" });
@@ -70,7 +66,7 @@ export default function BlogClient({ posts }: { posts: Post[] }) {
                 <div className="relative h-52 bg-gray-200">
                   <Image
                     src={post.image}
-                    alt={post.title}
+                    alt={post.imageAlt}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover"

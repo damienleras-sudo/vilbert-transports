@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contact — Devis transport matériaux & engins",
+  title: "Contact & Devis Gratuit | Vilbert Transports — Somme (80)",
   description:
-    "Contactez Vilbert Transports pour un devis de transport de matériaux ou d'engins en Hauts-de-France. Tél : 03 22 93 02 86 — tp@groupe-vilbert.fr — Ruelle Mayeux, 80260 Talmas.",
+    "Contactez Vilbert Transports pour un devis gratuit. ☎ 03 22 93 02 86 — Ruelle Mayeux, 80260 Talmas. Transport matériaux, engins, exceptionnel en Somme.",
 };
 
 export default function ContactPage() {

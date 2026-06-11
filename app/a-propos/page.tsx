@@ -174,6 +174,40 @@ export default function AProposPage() {
         </div>
       </section>
 
+      {/* Fiche d'identité */}
+      <section className="bg-white py-16 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-black text-gray-900 text-center mb-3">
+            Fiche d&apos;identité
+          </h2>
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
+            Les informations essentielles sur Vilbert Transports, en un coup d&apos;œil.
+          </p>
+          <dl className="grid grid-cols-1 md:grid-cols-2 gap-px bg-gray-100 rounded-xl overflow-hidden border border-gray-100">
+            {[
+              { term: "Raison sociale", desc: "Vilbert Transports" },
+              { term: "Activité", desc: "Transport routier de matériaux, engins et marchandises" },
+              { term: "Siège", desc: "Ruelle Mayeux, 80260 Talmas (Somme)" },
+              { term: "Téléphone", desc: "03 22 93 02 86" },
+              { term: "Email", desc: "tp@groupe-vilbert.fr" },
+              { term: "Zone principale", desc: "Somme (80), Oise (60), Pas-de-Calais (62), Hauts-de-France" },
+              { term: "Zone étendue", desc: "France entière, Europe (transport exceptionnel)" },
+              { term: "Groupe", desc: "Groupe Vilbert" },
+              { term: "Flotte", desc: "6x4 benne, 8x4 benne, Ampliroll, Semi TP, FMA, 8x4 avec grue, Porte-engins" },
+              { term: "Habilitations", desc: "ADR, AIPR, Agrément transport de déchets, Charte Objectif CO2" },
+              { term: "Engagements", desc: "Flotte Euro 6, Télématique embarquée, DashDoc traçabilité" },
+            ].map((row) => (
+              <div key={row.term} className="bg-white p-5">
+                <dt className="text-xs font-black uppercase tracking-wide text-[#1a3d6b] mb-1">
+                  {row.term}
+                </dt>
+                <dd className="text-gray-700 text-sm leading-relaxed">{row.desc}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+
       {/* Team values */}
       <section className="bg-[#1a3d6b] py-16 px-4">
         <div className="max-w-5xl mx-auto">

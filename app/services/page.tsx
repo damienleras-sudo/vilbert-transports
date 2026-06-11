@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Services de transport BTP — matériaux, engins, ampliroll",
+  title: "Nos Services de Transport | Matériaux, ADR, Déchets — Somme (80)",
   description:
-    "Vilbert Transports : transport de matériaux TP, engins de chantier, liquides & ADR (chauffeurs habilités), transport de déchets (agrément préfectoral), ampliroll, transport exceptionnel — Hauts-de-France.",
+    "Transport de matériaux, ADR, liquides, déchets industriels, engins de chantier en Somme et Hauts-de-France. Flotte complète, chauffeurs habilités.",
 };
 
 const services = [

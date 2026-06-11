@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Vilbert Transports | Transport de matériaux & engins — Hauts-de-France",
+  title: "Vilbert Transports | Transport de matériaux & engins — Somme (80)",
   description:
-    "Vilbert Transports : spécialiste du transport de matériaux TP et d'engins de chantier en Hauts-de-France. Flotte de camions 6x4, 8x4, ampliroll, semi TP, FMA, grue, porte-engins. Transport exceptionnel agréé France & Europe.",
+    "Vilbert Transports à Talmas (80260) — camions 6x4, 8x4, ampliroll, semi TP, FMA, grue, porte-engins. Transport exceptionnel France & Europe. ☎ 03 22 93 02 86.",
 };
 
 const fleetItems = [

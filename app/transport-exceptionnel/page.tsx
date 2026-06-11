@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Transport Exceptionnel — Convois hors-gabarit France & Europe",
+  title: "Transport Exceptionnel Somme & Europe | Convois Hors Gabarit",
   description:
-    "Vilbert Transports est agréé transport exceptionnel en France et Europe. Convois hors-gabarit, poids lourds, largeur > 2,55m, hauteur > 4m. Gestion des autorisations et escorte. Devis rapide.",
+    "Vilbert Transports — autorisé transport exceptionnel France et Europe. Convois hors gabarit, machines industrielles, cuves, équipements lourds. Somme (80).",
 };
 
 const criteria = [

@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Parc de véhicules — Flotte de camions spécialisés",
+  title: "Notre Flotte de Camions | 6x4, 8x4, Ampliroll, Semi TP, FMA, Grue",
   description:
-    "Découvrez la flotte Vilbert Transports : 6x4 benne, 8x4 benne, ampliroll, semi TP, FMA fond mouvant, 8x4 avec grue, porte-engins, transport exceptionnel. Tous les véhicules pour vos chantiers BTP.",
+    "Découvrez la flotte Vilbert Transports : 6x4, 8x4, ampliroll, semi TP, FMA, 8x4 grue, porte-engins. Camions Euro 6, télématique embarquée. Somme (80).",
 };
 
 const vehicles = [
