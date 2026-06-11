@@ -104,7 +104,7 @@ export default function ContactPage() {
                     Horaires
                   </div>
                   <div className="font-bold text-gray-900">
-                    Lundi — Vendredi : 7h00 – 18h00
+                    Lundi — Vendredi : 9h00 – 12h30 · 13h30 – 17h30
                   </div>
                   <div className="text-sm text-gray-500">Samedi et dimanche : fermé</div>
                 </div>

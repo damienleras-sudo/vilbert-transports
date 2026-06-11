@@ -39,7 +39,7 @@ export default function Header() {
             <a href="mailto:transports@groupe-vilbert.fr" className="flex items-center gap-1 hover:text-[#f5b800] transition-colors hidden sm:flex">
               ✉️ transports@groupe-vilbert.fr
             </a>
-            <span className="text-blue-200 hidden md:inline">⏰ Lun–Ven : 7h–18h · Hauts-de-France &amp; Europe</span>
+            <span className="text-blue-200 hidden md:inline">⏰ Lun–Ven : 9h–12h30 · 13h30–17h30</span>
           </div>
           <a
             href="https://www.groupe-vilbert.fr"

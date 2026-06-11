@@ -22,8 +22,8 @@
       {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "07:00",
-        closes: "18:00",
+        opens: "09:00",
+        closes: "17:30",
       },
     ],
     areaServed: ["Somme", "Oise", "Pas-de-Calais", "Hauts-de-France"],
