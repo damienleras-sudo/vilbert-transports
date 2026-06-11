@@ -44,7 +44,25 @@ Vilbert Transports est une entreprise de transport routier basée à Talmas (Som
 ## Zone géographique
 - Zone principale : Somme (80), Oise (60), Pas-de-Calais (62), Hauts-de-France
 - Zone étendue : France entière et Europe (transport exceptionnel)
-- Villes desservies : Amiens, Abbeville, Péronne, Albert, Doullens, Montdidier, Roye, Arras, Lens, Beauvais, Compiègne
+- Villes desservies : Amiens, Abbeville, Péronne, Albert, Doullens, Montdidier, Roye, Arras, Lens, Beauvais, Compiègne, Boulogne-sur-Mer, Calais, Dunkerque, Lille, Saint-Omer, Hesdin, Fruges, Montreuil-sur-Mer, Eu, Dieppe, Saint-Quentin, Laon, Creil, Noyon, Soissons
+
+## Pages du site
+- Accueil : https://www.vilbert-transports.fr
+- Transport exceptionnel : https://www.vilbert-transports.fr/transport-exceptionnel
+- Parc de véhicules : https://www.vilbert-transports.fr/parc-vehicules
+- Services : https://www.vilbert-transports.fr/services
+- Contact : https://www.vilbert-transports.fr/contact
+- Réalisations : https://www.vilbert-transports.fr/realisations
+- À propos : https://www.vilbert-transports.fr/a-propos
+- Blog : https://www.vilbert-transports.fr/blog
+- Transport Amiens : https://www.vilbert-transports.fr/transport-amiens
+- Transport Abbeville : https://www.vilbert-transports.fr/transport-abbeville
+- Transport Péronne : https://www.vilbert-transports.fr/transport-peronne
+- Transport Hauts-de-France : https://www.vilbert-transports.fr/transport-hauts-de-france
+- Politique de confidentialité : https://www.vilbert-transports.fr/politique-de-confidentialite
+- Conditions générales d'utilisation : https://www.vilbert-transports.fr/conditions-generales
+- Mentions légales : https://www.vilbert-transports.fr/mentions-legales
+- Plan du site : https://www.vilbert-transports.fr/sitemap-html
 
 ## À propos
 Vilbert Transports fait partie du Groupe Vilbert, groupe familial de Hauts-de-France. Ses filiales incluent Vilbert TP (travaux publics), Vilbert Hydro (assainissement), Vilbert Recyclage (recyclage). L'entreprise dispose d'une flotte récente aux normes Euro 6, avec télématique embarquée sur tous les véhicules pour le suivi en temps réel.
