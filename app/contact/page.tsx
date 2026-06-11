@@ -149,7 +149,7 @@ export default function ContactPage() {
               { label: "Vilbert TP", href: "https://www.vilbert-tp.fr" },
               { label: "Vilbert Hydro", href: "https://www.vilbert-hydro.fr" },
               { label: "Vilbert Recyclage", href: "https://www.vilbert-recyclage.fr" },
-              { label: "Groupe Vilbert", href: "https://www.groupe-vilbert.fr" },
+              { label: "Groupe Vilbert", href: "https://www.groupe-vilbert.com" },
             ].map((s) => (
               <a
                 key={s.label}

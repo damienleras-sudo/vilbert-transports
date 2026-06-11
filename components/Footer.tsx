@@ -105,7 +105,7 @@ export default function Footer() {
                 { label: "Vilbert TP", href: "https://www.vilbert-tp.fr" },
                 { label: "Vilbert Hydro", href: "https://www.vilbert-hydro.fr" },
                 { label: "Vilbert Recyclage", href: "https://www.vilbert-recyclage.fr" },
-                { label: "Groupe Vilbert", href: "https://www.groupe-vilbert.fr" },
+                { label: "Groupe Vilbert", href: "https://www.groupe-vilbert.com" },
               ].map((item) => (
                 <li key={item.href}>
                   <a

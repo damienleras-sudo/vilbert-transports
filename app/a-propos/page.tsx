@@ -69,7 +69,7 @@ const filiales = [
   {
     name: "Groupe Vilbert",
     desc: "Holding du groupe — coordination des filiales",
-    href: "https://www.groupe-vilbert.fr",
+    href: "https://www.groupe-vilbert.com",
     icon: "🏢",
   },
 ];

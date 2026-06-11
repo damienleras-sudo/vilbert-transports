@@ -42,7 +42,7 @@ export default function Header() {
             <span className="text-blue-200 hidden md:inline">⏰ Lun–Ven : 9h–12h30 · 13h30–17h30</span>
           </div>
           <a
-            href="https://www.groupe-vilbert.fr"
+            href="https://www.groupe-vilbert.com"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-[#1a3d6b] font-black text-xs px-3 py-1 rounded hover:bg-[#f5b800] hover:text-gray-900 transition-colors"
