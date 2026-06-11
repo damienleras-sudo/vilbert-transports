@@ -55,10 +55,27 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <div className="text-xs font-black text-gray-500 uppercase tracking-widest mb-0.5">
-                    Email
+                    Email général
                   </div>
                   <div className="font-black text-gray-900 group-hover:text-[#1a3d6b] transition-colors">
                     transports@groupe-vilbert.fr
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="mailto:tvt@groupe-vilbert.fr"
+                className="flex items-center gap-4 p-5 bg-gray-50 rounded-xl border-2 border-gray-100 hover:border-[#1a3d6b] transition-colors group"
+              >
+                <div className="bg-[#1a3d6b] text-white w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
+                  ⚠️
+                </div>
+                <div>
+                  <div className="text-xs font-black text-gray-500 uppercase tracking-widest mb-0.5">
+                    Email transport exceptionnel
+                  </div>
+                  <div className="font-black text-gray-900 group-hover:text-[#1a3d6b] transition-colors">
+                    tvt@groupe-vilbert.fr
                   </div>
                 </div>
               </a>
